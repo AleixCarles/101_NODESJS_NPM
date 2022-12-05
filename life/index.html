@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    var aleix =(function  (){
+        let email = 'aleixcarles@iesebre.com'
+        var password = 'aleix123'
+
+        function consoleme() {
+            console.log('Usuari:' + email)
+        }
+        return{
+            consoleme: consoleme,
+            email: email
+
+        }
+
+    })()
+
+    aleix.consoleme()
+    console.log(aleix.email)
+    console.log('HEY!')
+</script>
+</body>
+</html>
