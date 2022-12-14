@@ -1,5 +1,4 @@
-export default {
-    function (e = 'aleixcarles@gmail.com'){
+export default function (e = 'aleixcarles@gmail.com'){
         let email = e;
         var password = 'aleix123';
 
@@ -10,5 +9,5 @@ export default {
             }
         }
 
-    }
+
 }
